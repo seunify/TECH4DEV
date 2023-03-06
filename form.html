@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tech4Dev || Group One Registration
+        </title>
+        <link rel="stylesheet" href="style.css">
+   </head>
+
+<body>
+    <h3>Welcome to Group One Registration Page</h3>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="forms.html">Register</a>
+    </div>
+
+<div>
+    <form action="dashboard.html" method="get" style="border:1px solid #ccc">
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <label for="surname">Surname*:</label><br>
+        <input type="text" name="surname" placeholder="Enter Your Surname" required>
+        <br>
+        <label for="firstname">First Name*:</label><br>
+        <input type="text" name="firstname" placeholder="Enter Your FirstName" required>
+        <br>
+        <label for="middlename">Middle Name*:</label><br>
+        <input type="text" name="middlename" placeholder="Enter Your Middle Name" required>
+        <br>
+        <label for="email">Email Address*:</label><br>
+        <input type="email" name="email" placeholder="Enter Your Email Address" required>
+        <br>
+        <label for="password">Password*:</label><br>
+        <input type="password" name="password" minlength="8" placeholder="Minimum of 8 Characters" required>
+        <br>
+        <label for="phone">Phone Number*:</label><br>
+        <input type="number" name="phone" minlength="11" placeholder="Enter Your Phone Number" required>
+        <br>
+        <label for="origin">State of Origin*:</label><br>
+            <select name="origin" required>
+                <option value="">--Select Your Origin--</option>
+                <option value="abuja">ABUJA FCT</option>
+                <option value="abia">ABIA</option>
+                <option value="adamawa">ADAMAWA</option>
+                <option value="akwaibom">AKWA IBOM</option>
+                <option value="anambra">ANAMBRA</option>
+                <option value="bauchi">BAUCHI</option>
+                <option value="bayelsa">BAYELSA</option>
+                <option value="benue">BENUE</option>
+                <option value="borno">BORNO</option>
+                <option value="crossriver">CROSS RIVER</option>
+                <option value="delta">DELTA</option>
+                <option value="ebonyi">EBONYI</option>
+                <option value="edo">EDO</option>
+                <option value="ekiti">EKITI</option>
+                <option value="enugu">ENUGU</option>
+                <option value="gombe">GOMBE</option>
+                <option value="imo">IMO</option>
+                <option value="jigawa">JIGAWA</option>
+                <option value="kaduna">KADUNA</option>
+                <option value="kano">KANO</option>
+                <option value="katsina">KATSINA</option>
+                <option value="kebbi">KEBBI</option>
+                <option value="kogi">KOGI</option>
+                <option value="kwara">KWARA</option>
+                <option value="lagos">LAGOS</option>
+                <option value="nasarawa">NASSARAWA</option>
+                <option value="niger">NIGER</option>
+                <option value="ogun">OGUN</option>
+                <option value="ondo">ONDO</option>
+                <option value="osun">OSUN</option>
+                <option value="oyo">OYO</option>
+                <option value="plateau">PLATEAU</option>
+                <option value="rivers">RIVERS</option>
+                <option value="sokoto">SOKOTO</option>
+                <option value="taraba">TARABA</option>
+                <option value="yobe">YOBE</option>
+                <option value="zamfara">ZAMFARA</option>
+            </select>
+        <br>
+        <label for="dob">Date of Birth*:</label><br>
+        <input type="date" name="dob" required>
+        <br>
+        <label for="gender">Gender*:</label><br>
+        <label for="male"> Male</label><input type="radio" name="gender" value="male" required>
+        <label for="female"> Female</label><input type="radio" name="gender" value="female" required>
+        <br>
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+        <div>
+            <button type="submit" class="signupbtn">Register</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
